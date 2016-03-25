@@ -1,0 +1,128 @@
+body {
+background-color: #DE1313;
+font-family: Sans-serif;
+color: white;
+}
+.link{
+	color: white;
+	text-decoration: none;	
+}
+.banner{	
+	margin: 0 auto;
+	margin-bottom: 0px;
+	position: relative;
+	height:200px;
+	width: 900px;
+	text-align: center;
+	
+}
+	.img{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.menu{	
+	font-weight: bold;
+	font-family: Sans-serif;
+	margin-top: 0px;
+	margin: 0 auto;
+	position: relaitve;
+	text-align: center;
+	width: 900px;
+	height: 40px;
+}
+	.menu-pont{
+		box-shadow: 3px 3px 3px #000000;
+		margin-top: 4px;	
+		float: left;
+		padding: 15px;
+		border-radius: 10px;
+		background-color: #870808;
+		font-size: 20px;
+		margin-right: 5px;
+		margin-left: 3px;		
+	}
+		.menu-pont:hover{	
+			-webkit-animation: fading 0.2s ease-in;   
+			animation: fading 0.2s ease-in;	
+			background-color: #3D0000;  
+		}
+		@-webkit-keyframes fading {    
+			0% { background-color: #870808;}    
+			100%{ background-color: #3D0000; }
+		}
+		@keyframes fading {
+			0% {  background-color: #870808; }
+			100% {  background-color: #3D0000; }
+		}
+.tartalom{
+	margin: 0 auto;
+	position: relaitve;
+	width: 894px;
+	margin-top: 3px;
+	min-height: 400px;
+	background-color: #870808;
+	box-shadow: 3px 3px 3px #000000;
+	border-radius: 10px;
+	padding: 3px;
+	margin-top: 6px;
+}
+	.tabla{
+		width: 900px;
+		padding: 10px;
+		font-size: 18px;	
+		border: 0px;
+		margin: 0px;
+		 border-collapse:collapse
+	}
+	.tabla-sor{
+		
+	}
+		.tabla-sor:hover{
+			-webkit-animation: tabla_sor_fade 0.1s ease-in;   
+			animation: tabla_sor_fade 0.1s ease-in;	
+			background-color: #3D0000; 
+		}
+		@-webkit-keyframes tabla_sor_fade{    
+			0% { background-color: #870808;}    
+			100%{ background-color: #3D0000;}
+		}
+		@keyframes tabla_sor_fade {
+			0% {  background-color: #870808; }
+			100% {  background-color: #3D0000; }
+		}
+	.kosarba_button{
+		cursor: pointer; 
+		border-radius: 0px; 
+		background-color: #3D0000; 
+		color: white; 
+		border: 0px; 
+		font-size: 18px;
+		height: auto;
+	}
+	.kosarba_button:hover{
+		-webkit-animation: button_fade 0.2s ease-in;
+		animation: button_fade 0.2s ease-in;
+		background-color: #870808;
+	}
+	@-webkit-keyframes tabla_sor_fade{    
+			0% { background-color: #3D0000;}    
+			100%{ background-color: #870808;}
+	}
+		@keyframes tabla_sor_fade {
+			0% {  background-color: #3D0000;}
+			100% {  background-color: #870808; }
+	}
+.alja{
+	margin: 0 auto;
+	position: relative;
+	width: 900px;
+	height: 30px;
+	background-color: #870808;
+	margin-top: 6px;
+	border-radius: 10;
+	box-shadow: 3px 3px 3px #000000;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: underline;
+}
