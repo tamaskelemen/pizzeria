@@ -3,10 +3,12 @@ background-color: #DE1313;
 font-family: Sans-serif;
 color: white;
 }
+
 .link{
 	color: white;
 	text-decoration: none;	
 }
+
 .banner{	
 	margin: 0 auto;
 	margin-bottom: 0px;
@@ -14,13 +16,14 @@ color: white;
 	height:200px;
 	width: 900px;
 	text-align: center;
-	
 }
-	.img{
+
+.img{
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
 }
+
 .menu{	
 	font-weight: bold;
 	font-family: Sans-serif;
@@ -31,35 +34,60 @@ color: white;
 	width: 900px;
 	height: 40px;
 }
-	.menu-pont{
-		box-shadow: 3px 3px 3px #000000;
-		margin-top: 4px;	
-		float: left;
-		padding: 15px;
-		border-radius: 10px;
-		background-color: #870808;
-		font-size: 20px;
-		margin-right: 5px;
-		margin-left: 3px;		
-	}
-		.menu-pont:hover{	
-			-webkit-animation: fading 0.2s ease-in;   
-			animation: fading 0.2s ease-in;	
-			background-color: #3D0000;  
-		}
-		@-webkit-keyframes fading {    
-			0% { background-color: #870808;}    
-			100%{ background-color: #3D0000; }
-		}
-		@keyframes fading {
-			0% {  background-color: #870808; }
-			100% {  background-color: #3D0000; }
-		}
+.menu-pont{
+	box-shadow: 3px 3px 3px #000000;
+	margin-top: 4px;
+	float: left;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: #870808;
+	font-size: 20px;
+	margin-right: 5px;
+	margin-left: 3px;
+}
+.menu-pont:hover{
+	-webkit-animation: fading 0.2s ease-in;
+	animation: fading 0.2s ease-in;
+	background-color: #3D0000;
+}
+@-webkit-keyframes fading {
+	0% { background-color: #870808;}
+	100%{ background-color: #3D0000; }
+}
+@keyframes fading {
+	0% {  background-color: #870808; }
+	100% {  background-color: #3D0000; }
+}
+
+.text-center {
+	text-align: center;
+}
+
+.title {
+	margin-left: 15px;
+}
+.flash {
+	margin: 0 auto;
+	position: relative;
+	width: 894px;
+	border-radius: 10px;
+	padding: 3px;
+	margin-top: 6px;
+	text-align: center;
+	min-height: 25px;
+}
+
+.success {
+	background-color: #418200;
+}
+.error {
+	background-color: #ff89e3;
+}
+
 .tartalom{
 	margin: 0 auto;
-	position: relaitve;
+	position: relative;
 	width: 894px;
-	margin-top: 3px;
 	min-height: 400px;
 	background-color: #870808;
 	box-shadow: 3px 3px 3px #000000;
@@ -67,52 +95,68 @@ color: white;
 	padding: 3px;
 	margin-top: 6px;
 }
-	.tabla{
-		width: 900px;
-		padding: 10px;
-		font-size: 18px;	
-		border: 0px;
-		margin: 0px;
-		 border-collapse:collapse
+
+.hidden {
+	visibility: hidden;
+}
+
+.active-menu {
+	text-decoration: underline;
+	text-underline: #ffffff;
+}
+
+.tabla{
+	width: 900px;
+	padding: 10px;
+	font-size: 18px;
+	border: 0px;
+	margin: 0px;
+	 border-collapse:collapse
+}
+
+.tabla-sor{
+
+}
+	.tabla-sor:hover{
+		-webkit-animation: tabla_sor_fade 0.1s ease-in;
+		animation: tabla_sor_fade 0.1s ease-in;
+		background-color: #3D0000;
 	}
-	.tabla-sor{
-		
+	@-webkit-keyframes tabla_sor_fade{
+		0% { background-color: #870808;}
+		100%{ background-color: #3D0000;}
 	}
-		.tabla-sor:hover{
-			-webkit-animation: tabla_sor_fade 0.1s ease-in;   
-			animation: tabla_sor_fade 0.1s ease-in;	
-			background-color: #3D0000; 
-		}
-		@-webkit-keyframes tabla_sor_fade{    
-			0% { background-color: #870808;}    
-			100%{ background-color: #3D0000;}
-		}
-		@keyframes tabla_sor_fade {
-			0% {  background-color: #870808; }
-			100% {  background-color: #3D0000; }
-		}
-	.kosarba_button{
-		cursor: pointer; 
-		border-radius: 0px; 
-		background-color: #3D0000; 
-		color: white; 
-		border: 0px; 
-		font-size: 18px;
-		height: auto;
+	@keyframes tabla_sor_fade {
+		0% {  background-color: #870808; }
+		100% {  background-color: #3D0000; }
 	}
-	.kosarba_button:hover{
-		-webkit-animation: button_fade 0.2s ease-in;
-		animation: button_fade 0.2s ease-in;
-		background-color: #870808;
-	}
-	@-webkit-keyframes tabla_sor_fade{    
-			0% { background-color: #3D0000;}    
-			100%{ background-color: #870808;}
-	}
-		@keyframes tabla_sor_fade {
-			0% {  background-color: #3D0000;}
-			100% {  background-color: #870808; }
-	}
+
+.kosarba_button{
+	cursor: pointer;
+	border-radius: 0px;
+	background-color: #3D0000;
+	color: white;
+	border: 0px;
+	font-size: 18px;
+	height: auto;
+}
+
+.kosarba_button:hover{
+	-webkit-animation: button_fade 0.2s ease-in;
+	animation: button_fade 0.2s ease-in;
+	background-color: #870808;
+}
+
+@-webkit-keyframes tabla_sor_fade{
+		0% { background-color: #3D0000;}
+		100%{ background-color: #870808;}
+}
+
+@keyframes tabla_sor_fade {
+		0% {  background-color: #3D0000;}
+		100% {  background-color: #870808; }
+}
+
 .alja{
 	margin: 0 auto;
 	position: relative;
@@ -120,9 +164,60 @@ color: white;
 	height: 30px;
 	background-color: #870808;
 	margin-top: 6px;
-	border-radius: 10;
+	border-radius: 10px;
 	box-shadow: 3px 3px 3px #000000;
 	text-align: center;
 	vertical-align: middle;
 	text-decoration: underline;
+}
+
+
+.text, input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+
+button {
+	background-color: #DE1313;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+
+	.cancelbtn {
+		width: 100%;
+	}
 }
